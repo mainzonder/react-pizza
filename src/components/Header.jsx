@@ -25,6 +25,7 @@ function Header() {
 				<div className="header__cart">
 					<Link to="/cart">
 						<Button
+							on
 							href="/cart.html"
 							className="button button--cart">
 							<span>520 ₽</span>
