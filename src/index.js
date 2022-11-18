@@ -10,11 +10,6 @@ import "./scss/app.scss";
 
 import App from "./App";
 
-store.dispatch({
-	type: "SET_SORT_BY",
-	payload: "price",
-});
-
 ReactDOM.render(
 	<Router>
 		<Provider store={store}>
